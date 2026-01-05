@@ -1,0 +1,115 @@
+/*.top-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: right 100px;
+  gap: 10px;
+}*/
+
+.header {
+  font-size: small;
+  background-color: rgb(208, 137, 150);
+  color: aliceblue;
+  width: auto;
+  text-align: center;
+
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  display: flex;
+  gap: 50px;
+  padding: 14px 20px;
+
+}
+
+
+.li {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+
+}
+
+/* Hover effect */
+.li:hover {
+  background-color: #d81010;
+}
+
+.li{
+ page: "fmnbouquet.html"
+}
+
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border: solid 1px;
+  background-color: antiquewhite;
+}
+
+
+.Products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  border: solid 1px;
+  
+}
+
+.card-img-top{
+  height: 150px;
+  width: 150px;
+}
+
+.card{
+  align-items: center;
+  text-align-last:center;
+  margin: 5px;
+  box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 0.8);
+  background-color: rgb(243, 247, 245);
+  padding: 15px;
+  border-radius: 5%;
+  
+}
+
+.card-text{
+  text-align: justify;
+}
+
+
+.contact-form {
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 5px;
+        }
+        .contact-form h2 {
+            text-align: center;
+        }
+        .contact-form label {
+            display: block;
+            margin-top: 10px;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        .buttons {
+            margin-top: 15px;
+            text-align: center;
+        }
+        .buttons input {
+            padding: 8px 15px;
+            margin: 5px;
+        }
+
+    
